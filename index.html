@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Drag and Drop Game</title>
+</head>
+
+<body>
+    <h1>Drag And Drop the Correct Pictures</h1>
+    <section class="drag-elements">
+        <i class="fas fa-hippo drag" draggable="true" style="color: #5d40ff;" id="hippo"></i>
+        <i class="fas fa-dove drag" draggable="true" style="color: #56ff5e;" id="dove"></i>
+        <i class="fas fa-horse drag" draggable="true" style="color: #b4d812;" id="horse"></i>
+        <i class="fas fa-frog drag" draggable="true" style="color: #eb0f08;" id="frog"></i>
+        <i class="fas fa-fish drag" draggable="true" style="color: #dd1267;" id="fish"></i>
+        <i class="fas fa-cat drag" draggable="true" style="color: #0ece1e;" id="cat"></i>
+        <i class="fas fa-spider drag" draggable="true" style="color: #f31383;" id="spider"></i>
+        <i class="fas fa-dog drag" draggable="true" style="color: #df9a06;" id="dog"></i>
+    </section>
+    <section class="droppable-elements">
+        <div class="droppable" data-draggable-id="frog"><span>Frog</span></div>
+        <div class="droppable" data-draggable-id="dove"><span>Bird</span></div>
+        <div class="droppable" data-draggable-id="cat"><span>Cat</span></div>
+        <div class="droppable" data-draggable-id="fish"><span>Fish</span></div>
+        <div class="droppable" data-draggable-id="dog"><span>Dog</span></div>
+        <div class="droppable" data-draggable-id="spider"><span>Spider</span></div>
+        <div class="droppable" data-draggable-id="horse"><span>Horse</span></div>
+        <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
